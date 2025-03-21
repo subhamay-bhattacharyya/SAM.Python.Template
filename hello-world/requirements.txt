@@ -1,0 +1,1 @@
+aws-lambda-powertools[tracer,logger,middleware,validator,metrics,correlation-ids]

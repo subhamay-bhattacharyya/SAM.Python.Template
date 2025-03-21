@@ -1,0 +1,5 @@
+# MacOs temp files
+.DS_Store
+
+# SAM build directory
+.aws-sam

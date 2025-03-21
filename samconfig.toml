@@ -1,0 +1,11 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "apigw-lab-01-py-lambda-integration-sam"
+resolve_s3 = true
+s3_prefix = "apigw-lab-01-py-lambda-integration-sam"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_NAMED_IAM"
+parameter_overrides = "ProjectName=\"apigw-01-py-sam\" Environment=\"devl\" GitHubRef=\"ref_name\" GitHubURL=\"https://github.com/subhamay-bhattacharyya/1111-api-gateway-py-sam\" GitHubWFRunNumber=\"1\" GitHubSHA=\"d3b07384d113edec49eaa6238ad5ff00f6fb3796\" GitHubRepository=\"1111-api-gateway-py-sam\" CiBuild=\"\" CodeRepositoryS3Bucket=\"subhamay-aws-cfn-nested-stack-templates-us-east-1\" KmsMasterKeyArn=\"arn:aws:kms:us-east-1:637423502513:key/494509e4-3bc5-44b8-9c4d-12449900d395\" VpcStackName=\"private-vpc-root-stack\" RestApiBaseName=\"lambda-proxy\" ApiStageName=\"v1\" LambdaFunctionBaseName=\"proxy-integration\" LambdaFunctionDescription=\"Lambda function to be used for API Gateway Proxy Integration.\" LambdaRuntime=\"python3.9\" LambdaFunctionTimeoutSecs=\"300\" LambdaFunctionMemory=\"256\""
+image_repositories = []
+disable_rollback = true
