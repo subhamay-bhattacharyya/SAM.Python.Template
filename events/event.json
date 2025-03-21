@@ -1,0 +1,51 @@
+{
+  "resource": "/hello",
+  "path": "/hello",
+  "httpMethod": "GET",
+  "headers": null,
+  "multiValueHeaders": null,
+  "queryStringParameters": {
+    "greeter": "Subhamay"
+  },
+  "multiValueQueryStringParameters": {
+    "greeter": [
+      "Subhamay"
+    ]
+  },
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "bi7kgk",
+    "resourcePath": "/hello",
+    "httpMethod": "GET",
+    "extendedRequestId": "HfyRVGQjoAMFwiQ=",
+    "requestTime": "16/Mar/2025:02:00:52 +0000",
+    "path": "/hello",
+    "accountId": "637423502513",
+    "protocol": "HTTP/1.1",
+    "stage": "test-invoke-stage",
+    "domainPrefix": "testPrefix",
+    "requestTimeEpoch": 1742090452920,
+    "requestId": "7e3a761c-9624-47b3-a648-bd9eb9bc5b01",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "cognitoIdentityId": null,
+      "apiKey": "test-invoke-api-key",
+      "principalOrgId": null,
+      "cognitoAuthenticationType": null,
+      "userArn": "arn:aws:sts::637423502513:assumed-role/OrganizationAccountAccessRole/iamadmin",
+      "apiKeyId": "test-invoke-api-key-id",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "accountId": "637423502513",
+      "caller": "AROAZI2LGYSYVKL4XJGIN:iamadmin",
+      "sourceIp": "test-invoke-source-ip",
+      "accessKey": "ASIAZI2LGYSY5JJBDFE6",
+      "cognitoAuthenticationProvider": null,
+      "user": "AROAZI2LGYSYVKL4XJGIN:iamadmin"
+    },
+    "domainName": "testPrefix.testDomainName",
+    "apiId": "fui3rr63vg"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
